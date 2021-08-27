@@ -1,0 +1,474 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "089fba86",
+   "metadata": {},
+   "source": [
+    "# Review Python ICE - Sarthak Arora - A20337486 - 26th Aug 2021"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "92a79bfc",
+   "metadata": {},
+   "source": [
+    "### Create a variable named hometown with the value of the town where you graduated highschool"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 73,
+   "id": "625942bc",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Jalandhar\n"
+     ]
+    }
+   ],
+   "source": [
+    "hometown = \"Jalandhar\"\n",
+    "print(hometown)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "83e81ed3",
+   "metadata": {},
+   "source": [
+    "### Create a variable named x with a value of 298784"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 74,
+   "id": "f482e180",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "298784\n"
+     ]
+    }
+   ],
+   "source": [
+    "x = 298784\n",
+    "print(x)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "ff0de5bd",
+   "metadata": {},
+   "source": [
+    "### Create two variables, j and l, with values, 5 and 10, respectively. Sum them together and print out the result. Use only 3 lines of code "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 75,
+   "id": "a3d4b71b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "15\n"
+     ]
+    }
+   ],
+   "source": [
+    "j = 5\n",
+    "l = 10\n",
+    "print(j+l)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "ecf561c7",
+   "metadata": {},
+   "source": [
+    "### Create a variable named z. Assign it a value equal to the sum of j and l. Print out the result"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 76,
+   "id": "de5c45b1",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "15\n"
+     ]
+    }
+   ],
+   "source": [
+    "z = j+l\n",
+    "print(z)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "146e7c4c",
+   "metadata": {},
+   "source": [
+    "### Using a single line of code, assign the variables t, q, r, and s the value of education "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 77,
+   "id": "99374f81",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "education education education education\n"
+     ]
+    }
+   ],
+   "source": [
+    "t = q = r = s = \"education\"\n",
+    "print(t,q,r,s)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "9a80f0d6",
+   "metadata": {},
+   "source": [
+    "### Given the following in Python, identify the data types for each variable"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 78,
+   "id": "3b0073aa",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "x = [\"apple\", \"banana\", \"cherry\"]\n",
+    "y = (\"apple\", \"banana\", \"cherry\")\n",
+    "f = False\n",
+    "g = 'covid-19'"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 79,
+   "id": "6bf1e8ac",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "list"
+      ]
+     },
+     "execution_count": 79,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(x)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 80,
+   "id": "12ddfe2e",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "tuple"
+      ]
+     },
+     "execution_count": 80,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(y)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 81,
+   "id": "eafe3ed2",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "bool"
+      ]
+     },
+     "execution_count": 81,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(f)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 82,
+   "id": "c96c5fea",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "str"
+      ]
+     },
+     "execution_count": 82,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(g)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "7096d13c",
+   "metadata": {},
+   "source": [
+    "### Given the following code, what would be the output? "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 83,
+   "id": "984e48a9",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "arg1 is not greater than arg2\n",
+      "5\n",
+      "0\n",
+      "3\n"
+     ]
+    }
+   ],
+   "source": [
+    "x = 0\n",
+    "j = 3\n",
+    "\n",
+    "def funky(arg1, arg2):\n",
+    "    x = 1\n",
+    "    j = 5\n",
+    "    if arg1 > arg2:\n",
+    "        print('arg1 is greater than arg2')\n",
+    "    else:\n",
+    "        print('arg1 is not greater than arg2')\n",
+    "    print(j)\n",
+    "\n",
+    "funky(x, j)\n",
+    "\n",
+    "print(x)\n",
+    "print(j)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "c07897c9",
+   "metadata": {},
+   "source": [
+    "#### Last two lines printed the global x and j variables \n",
+    "#### print(j) inside the def function printed the local j variable\n",
+    "#### funky(x,j) printed using the global values as arg1 and arg2 was assigned the global x and j values"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 84,
+   "id": "9dc49f82",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "arg1 is not greater than arg2\n",
+      "5\n",
+      "0\n",
+      "3\n"
+     ]
+    }
+   ],
+   "source": [
+    "x = 0\n",
+    "j = 3\n",
+    "\n",
+    "def funky(arg1, arg2):\n",
+    "    x = 1 \n",
+    "    j = 5\n",
+    "    if arg1 > arg2:\n",
+    "        print('arg1 is greater than arg2')\n",
+    "    else:\n",
+    "        print('arg1 is not greater than arg2')\n",
+    "    print(j)\n",
+    "\n",
+    "funky(x, j)\n",
+    "\n",
+    "print(x)\n",
+    "print(j)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "da006d9d",
+   "metadata": {},
+   "source": [
+    "### Change the code such that the global and local variables reference each other, rather than as separate. That is, if I change the variable at the local level within the function, the same value will be available at the global level"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 85,
+   "id": "42642084",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "arg1 is not greater than arg2\n",
+      "5\n",
+      "1\n",
+      "5\n"
+     ]
+    }
+   ],
+   "source": [
+    "x = 0\n",
+    "j = 3\n",
+    "\n",
+    "def funky(arg1, arg2):\n",
+    "    global x \n",
+    "    x = 1\n",
+    "    global j \n",
+    "    j = 5\n",
+    "    if arg1 > arg2:\n",
+    "        print('arg1 is greater than arg2')\n",
+    "    else:\n",
+    "        print('arg1 is not greater than arg2')\n",
+    "    print(j)\n",
+    "\n",
+    "funky(x, j)\n",
+    "\n",
+    "print(x)\n",
+    "print(j)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "dcc08044",
+   "metadata": {},
+   "source": [
+    "### Write a for loop to print each item. Use two lines of code"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 86,
+   "id": "155f5acd",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "burger\n",
+      "apple\n",
+      "soba\n",
+      "chahan\n"
+     ]
+    }
+   ],
+   "source": [
+    "lunches = ['burger','apple','soba','chahan']\n",
+    "\n",
+    "for i in lunches:\n",
+    "    print(i)\n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "f1f9fe05",
+   "metadata": {},
+   "source": [
+    "### If the food is apple exit the loop immediately"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 87,
+   "id": "c3289ceb",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "burger\n"
+     ]
+    }
+   ],
+   "source": [
+    "lunches = ['burger','apple','soba','chahan']\n",
+    "\n",
+    "for i in lunches:\n",
+    "    if i == 'apple':\n",
+    "        break\n",
+    "    print(i)"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.7.2"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
